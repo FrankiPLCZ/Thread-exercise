@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="185dp"
+        android:layout_height="341dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="256dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/lv2"
+        android:layout_width="185dp"
+        android:layout_height="341dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginLeft="224dp"
+        android:layout_marginTop="252dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="107dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginLeft="304dp"
+        android:layout_marginTop="136dp"
+        android:onClick="zmiana"
+        android:text="Sprawdź "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="107dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginLeft="304dp"
+        android:layout_marginTop="52dp"
+        android:onClick="dodajelem"
+        android:text="Sprawdź"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="302dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="44dp"
+        android:text="Check how much 1 000 000 000 has numbers divided by"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="106dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="328dp"
+        android:layout_marginLeft="328dp"
+        android:layout_marginTop="116dp"
+        android:text="AsyncTask"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="336dp"
+        android:layout_marginLeft="336dp"
+        android:layout_marginTop="32dp"
+        android:text="Thread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="61dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="180dp"
+        android:onClick="sync"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="144dp"
+        android:text="Thread Synchronize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="238dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="188dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="243dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="228dp"
+        android:text="Click on list to stop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
